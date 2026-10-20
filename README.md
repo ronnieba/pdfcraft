@@ -36,6 +36,24 @@
   <a href="https://getartcraft.com/apps">All Crafting Apps</a>
 </p>
 
+---
+
+## 🇮🇱 תוספת עברית מלאה בממשק וזיהוי טקסט (OCR) בעברית / Full Hebrew UI & Hebrew OCR
+
+מאגר זה (`ronnieba/pdfcraft`) כולל תמיכה עברית מלאה שהוספה ל-PdfCraft ונשלחה כ-[Pull Request #3743](https://github.com/storytold/pdfcraft/pull/3743) למאגר המקורי (`storytold/pdfcraft`):
+
+1. **ממשק משתמש עברי מלא (`he` / `עברית`):**
+   - **תרגום מלא של כל הממשק (`crates/ui-egui/src/i18n/he.tsv`):** 2,675 מחרוזות מתורגמות במלואן — תפריטים, סרגלי כלים, חלונות דו-שיח, הודעות מערכת, קיצורי מקשים וצורות יחיד/רבים (`@plural`).
+   - **תמיכה בכיווניות ימין-לשמאל (`rtl: true`)** ברישום השפה (`crates/ui-egui/src/i18n/mod.rs`), כולל זיהוי אוטומטי של שפת מערכת ההפעלה (`he`, `he-IL`, `iw`, `iw-IL`).
+   - **תאריכים בעברית (`crates/engine/src/dates.rs`):** שמות חודשים וימים בעברית לשדות תאריך וחותמות.
+   - **גופן מערכת עברי (`crates/ui-egui/src/system_fonts.rs`):** טעינה אוטומטית של גופן עברי ממערכת ההפעלה (`Segoe UI` / `Arial` / `Tahoma` ב-Windows, `SF Hebrew` ב-macOS, `Noto Sans Hebrew` ב-Linux).
+
+2. **זיהוי טקסט (OCR) בעברית (`crates/ocr`, `crates/edit`, `crates/engine`):**
+   - **תמיכה ב-OCR בעברית (`he` — `heb+eng`)** בכלי **סריקה ו-OCR -> זיהוי טקסט**, עם בחירה אוטומטית של עברית כשפת ברירת המחדל כאשר הממשק בעברית.
+   - **שכבת טקסט יוניקוד דו-כיוונית (`/PCOCR` מסוג `Type0` / `Identity-H` עם טבלת `ToUnicode` CMap):** הטמעת המילים המזוהות בעברית בסדר חזותי תקין בתוך ה-PDF כך שחיפוש טקסט (`Ctrl+F`), בחירה והעתקה, ועריכת טקסט (`עריכת טקסט`) פועלים בעברית בסדר לוגי מלא מימין לשמאל.
+
+---
+
 <br>
 
 <p align="center">
