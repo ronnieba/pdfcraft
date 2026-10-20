@@ -40,6 +40,8 @@
 
 ## 🇮🇱 תוספת עברית מלאה בממשק וזיהוי טקסט (OCR) בעברית / Full Hebrew UI & Hebrew OCR
 
+### ⬇️ [הורדה ישירה לגרסת Windows מוכנה להפעלה (Portable ZIP — כולל מנוע OCR בעברית)](https://github.com/ronnieba/pdfcraft/releases/download/v0.10.1-he.1/pdfcraft-hebrew-windows-x64-portable.zip) · [עמוד הגרסאות (Releases)](https://github.com/ronnieba/pdfcraft/releases/tag/v0.10.1-he.1)
+
 מאגר זה (`ronnieba/pdfcraft`) כולל תמיכה עברית מלאה שהוספה ל-PdfCraft ונשלחה כ-[Pull Request #3743](https://github.com/storytold/pdfcraft/pull/3743) למאגר המקורי (`storytold/pdfcraft`):
 
 1. **ממשק משתמש עברי מלא (`he` / `עברית`):**
