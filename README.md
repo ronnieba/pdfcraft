@@ -40,12 +40,12 @@
 
 ## 🇮🇱 תוספת עברית מלאה בממשק וזיהוי טקסט (OCR) בעברית / Full Hebrew UI & Hebrew OCR
 
-### ⬇️ [הורדה ישירה לגרסת Windows מוכנה להפעלה (Portable ZIP — כולל מנוע OCR בעברית)](https://github.com/ronnieba/pdfcraft/releases/download/v0.10.1-he.1/pdfcraft-hebrew-windows-x64-portable.zip) · [עמוד הגרסאות (Releases)](https://github.com/ronnieba/pdfcraft/releases/tag/v0.10.1-he.1)
+### ⬇️ [הורדה ישירה לגרסת Windows מוכנה להפעלה (Portable ZIP — כולל מנוע OCR בעברית)](https://github.com/ronnieba/pdfcraft/releases/download/v0.11.0-he.1/pdfcraft-hebrew-windows-x64-portable.zip) · [עמוד הגרסאות (Releases)](https://github.com/ronnieba/pdfcraft/releases/tag/v0.11.0-he.1)
 
 מאגר זה (`ronnieba/pdfcraft`) כולל תמיכה עברית מלאה שהוספה ל-PdfCraft ונשלחה כ-[Pull Request #3743](https://github.com/storytold/pdfcraft/pull/3743) למאגר המקורי (`storytold/pdfcraft`):
 
 1. **ממשק משתמש עברי מלא (`he` / `עברית`):**
-   - **תרגום מלא של כל הממשק (`crates/ui-egui/src/i18n/he.tsv`):** 2,675 מחרוזות מתורגמות במלואן — תפריטים, סרגלי כלים, חלונות דו-שיח, הודעות מערכת, קיצורי מקשים וצורות יחיד/רבים (`@plural`).
+   - **תרגום מלא של כל הממשק (`crates/ui-egui/src/i18n/he.tsv`):** 2,763 מחרוזות מתורגמות במלואן — תפריטים, סרגלי כלים, חלונות דו-שיח, הודעות מערכת, קיצורי מקשים וצורות יחיד/רבים (`@plural`).
    - **תמיכה בכיווניות ימין-לשמאל (`rtl: true`)** ברישום השפה (`crates/ui-egui/src/i18n/mod.rs`), כולל זיהוי אוטומטי של שפת מערכת ההפעלה (`he`, `he-IL`, `iw`, `iw-IL`).
    - **תאריכים בעברית (`crates/engine/src/dates.rs`):** שמות חודשים וימים בעברית לשדות תאריך וחותמות.
    - **גופן מערכת עברי (`crates/ui-egui/src/system_fonts.rs`):** טעינה אוטומטית של גופן עברי ממערכת ההפעלה (`Segoe UI` / `Arial` / `Tahoma` ב-Windows, `SF Hebrew` ב-macOS, `Noto Sans Hebrew` ב-Linux).
